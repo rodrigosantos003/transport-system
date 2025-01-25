@@ -1,0 +1,119 @@
+.menu{
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 10px 30px 10px 30px;
+    -fx-spacing: 20px;
+    -fx-alignment: top-center;
+}
+
+.button{
+    -fx-background-color: #4C9060;
+    -fx-text-fill: #FFFFFF;
+    -fx-min-width: 100px;
+    -fx-min-height: 30px;
+}
+
+.big-button{
+    -fx-min-width: 300px;
+    -fx-min-height: 40px;
+}
+
+.small-button{
+    -fx-min-width: 200px;
+    -fx-min-height: 30px;
+}
+
+.sub-header{
+    -fx-text-fill: #000000;
+    -fx-font-size: 20px;
+}
+
+.header{
+    -fx-text-fill: #4C9060;
+    -fx-font-size: 32px;
+}
+
+.small-label{
+    -fx-text-fill: #4C9060;
+    -fx-font-size: 16px;
+}
+
+.big-label{
+    -fx-text-fill: #000000;
+    -fx-font-size: 20px;
+}
+
+.transport-label{
+    -fx-alignment: center;
+    -fx-text-fill: #4C9060;
+    -fx-font-size: 16px;
+}
+
+.info-label{
+    -fx-background-color: #B7D3BF;
+    -fx-padding: 5px;
+    -fx-alignment: center;
+}
+
+.white-label{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 16px;
+}
+
+.scroll-pane{
+    -fx-max-height: 300px;
+    -fx-fit-to-width: true;
+    -fx-fit-to-height: true;
+}
+
+.stop-list{
+    -fx-spacing: 10px;
+    -fx-width: 370px;
+    -fx-background-color: #4C9060;
+    -fx-padding: 10px;
+    -fx-alignment: center;
+}
+
+.centrality-grid{
+    -fx-background-color: #4C9060;
+    -fx-alignment: center;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+    -fx-padding: 10px;
+}
+
+.info-grid{
+    -fx-hgap: 20px;
+    -fx-vgap: 10px;
+    -fx-padding: 10px;
+    -fx-alignment: center;
+}
+
+/* Editable Bicycle Duration Section */
+.editable-box {
+    -fx-background-color: #e0f7e8;
+    -fx-border-color: #82c9a0;
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+.editable-info {
+    -fx-font-family: "Arial";
+    -fx-font-size: 12px;
+    -fx-font-weight: normal;
+    -fx-text-fill: darkgreen;
+}
+
+.bike-duration-box {
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+.bike-duration-field {
+    -fx-prompt-text-fill: gray;
+}
+
+.bike-duration-field:focused {
+    -fx-background-color: #f0f8ff;
+    -fx-border-color: #4682b4;
+}
